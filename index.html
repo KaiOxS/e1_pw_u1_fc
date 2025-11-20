@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <nav></nav>
+        <section>
+            <div class="formulario">
+                <form action="#">
+                    <p type="Cantón:"><input id="canton" type="text"></p>
+                    <p type="Provincia:"><input id="provincia" type="text"></p>
+                </form>
+                <div class="centrar">
+                    <button onclick="agregar()">Agregar</button>
+                </div>
+            </div>
+            <div class="centrar-tabla">
+                <table border=1>
+                    <thead id="tabla">
+                        <tr>
+                            <th>Cantón</th>
+                            <th>Provincia</th>
+                        </tr>
+                    </thead>
+                    <tbody id="body">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
